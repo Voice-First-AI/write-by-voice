@@ -1,0 +1,17 @@
+{
+	"name": "WriteByVoiceIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "sentence",
+					"value": "$sentence",
+					"dataType": "@sys.any"
+				}
+			]
+		}
+	]
+}

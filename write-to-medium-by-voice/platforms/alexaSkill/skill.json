@@ -1,0 +1,48 @@
+{
+	"manifest": {
+		"publishingInformation": {
+			"locales": {
+				"en-US": {
+					"summary": "Sample Short Description",
+					"examplePhrases": [
+						"Alexa open hello world"
+					],
+					"keywords": [
+						"hello",
+						"world"
+					],
+					"name": "write-to-medium-by-voice",
+					"description": "Sample Full Description",
+					"smallIconUri": "https://via.placeholder.com/108/09f/09f.png",
+					"largeIconUri": "https://via.placeholder.com/512/09f/09f.png"
+				}
+			},
+			"isAvailableWorldwide": true,
+			"testingInstructions": "Sample Testing Instructions.",
+			"category": "EDUCATION_AND_REFERENCE",
+			"distributionCountries": []
+		},
+		"apis": {
+			"custom": {
+				"endpoint": {
+					"sslCertificateType": "Wildcard",
+					"uri": "https://webhook.jovo.cloud/6cf661d2-b784-42f3-8b91-8143b940a1aa"
+				}
+			}
+		},
+		"manifestVersion": "1.0",
+		"privacyAndCompliance": {
+			"allowsPurchases": false,
+			"locales": {
+				"en-US": {
+					"privacyPolicyUrl": "http://example.com/policy",
+					"termsOfUseUrl": ""
+				}
+			},
+			"isExportCompliant": true,
+			"containsAds": false,
+			"isChildDirected": false,
+			"usesPersonalInfo": false
+		}
+	}
+}

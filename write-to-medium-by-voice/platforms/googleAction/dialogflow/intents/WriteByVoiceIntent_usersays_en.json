@@ -1,0 +1,14 @@
+[
+	{
+		"data": [
+			{
+				"text": "sentence",
+				"userDefined": true,
+				"alias": "sentence",
+				"meta": "@sys.any"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]
